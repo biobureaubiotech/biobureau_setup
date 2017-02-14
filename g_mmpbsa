@@ -1,4 +1,4 @@
 # Para rodar g_mmpbsa pelo terminal
 
-$ DYLD_LIBRARY_PATH="${DYLD_LIBRARY_PATH}:/usr/local/gromacs/lib"
+$ export DYLD_LIBRARY_PATH="${DYLD_LIBRARY_PATH}:/usr/local/gromacs/lib"
 $ /usr/local/g_mmpbsa4/bin/g_mmbsa -f md_0_1.xtc -s md_0_1.tpr -n index2.ndx -i pbsa.mdp -pdie 2 -pbsa -decomp
